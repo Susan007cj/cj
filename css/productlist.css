@@ -1,0 +1,151 @@
+body{
+    background-color: #fff;
+}
+/*product部分start*/
+.mmb-product{
+    text-align: left;
+}
+.mmb-product .mmb-product-content{
+    height: 40px;   
+}
+.mmb-product .mmb-product-content ul{
+    padding:0 8px;
+    float:left;
+}
+.mmb-product .mmb-product-content ul li{
+    line-height: 40px;
+    float:left;
+}
+.mmb-product .mmb-product-content form{
+    float:right;
+}
+.mmb-product .mmb-product-content form #btn{
+    width: 50px;
+    height: 25px;
+    border-radius:10px;
+    background-color: #ccc;
+    margin-right:10px;
+    margin-top:5px;
+}
+.mmb-product .mmb-product-list ul .item{
+    padding:10px 8px;
+    font-size:12px;
+    background-color: #fff;
+    position:relative;
+}
+.mmb-product .mmb-product-list ul .item a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:99;
+}
+.mmb-product .mmb-product-list ul .item .pic{
+    float:left;
+    width: 120px;
+    height: 120px;
+    text-align: 120px;
+    margin-right: 10px;
+    overflow:hidden;
+}
+.mmb-product .mmb-product-list ul .item .pic img{
+    width: 120px;
+    height: 120px;
+}
+.mmb-product .mmb-product-list ul .item .info{
+    overflow:hidden;
+}
+.mmb-product .mmb-product-list ul .item .info .title{
+    color:#333;
+    font-size:15px;
+    line-height:28px;
+    height: 56px;
+    overflow:hidden;    
+}
+.mmb-product .mmb-product-list ul .item .info .price{
+    color:#ed0000;
+    font-size:18px;
+    overflow:hidden;
+    margin-top: 6px;
+}
+.mmb-product .mmb-product-list ul .item .info .price em{
+    font-size:12px;
+    font-style:normal;
+}
+.mmb-product .mmb-product-list ul .item .info .other{
+    margin-top: 4px;
+}
+.mmb-product .mmb-product-list ul .item .info .other .mall{
+    float:left;
+    color:#a1a1a1;
+    line-height: 21px;
+    overflow:hidden;
+}
+.mmb-product .mmb-product-list ul .item .info .other .sales{
+     float:right;
+    text-align:right;
+    color:#a1a1a1;
+    line-height: 21px;
+}
+.mmb-product .page{
+    text-align:center;
+    background-color: #efefef;
+}
+.mmb-product .page li{
+    float:left;
+    margin-top:20px;
+    width:33.3%;
+}
+.mmb-product .page ul>ul{
+    float:left;
+    width:33.3%;
+    padding:0 5px;
+    height:52px;
+    padding-top:20px;
+    /*overflow: hidden;*/
+}
+.mmb-product .page ul>ul>li{
+    width: 100%;
+    border: 1px solid #bababa; 
+    font-size: 16px;
+    height:32px;
+    line-height: 32px;
+    background-color: #fff;
+    margin-top:0;
+}
+.mmb-product .page li a{
+    background-color:#d4d4d4;
+    border-bottom:1px solid #bababa;
+    border-radius:5px;
+    text-align:center;
+    font-size:14px;
+    line-height: 32px;
+    overflow:hidden;
+    padding:8px 20px;
+    margin-bottom:10px;
+}
+/*product部分end*/
+/*links部分start*/
+.mmb-links{
+    line-height:24px;
+    text-align:left; 
+    padding-left:10px;
+    background-color:#efefef;
+    font-size:15px;
+    color: #000;
+    padding-bottom:20px;
+}
+.mmb-links a:nth-child(1){
+    margin-top:49px;
+}
+.mmb-links a{
+    display: block;
+    font-size:12px;
+    line-height: 24px;
+}
+/*links部分end*/
+.mmb-foot .mmb-top{
+    margin-top: 0;  
+}

@@ -1,0 +1,62 @@
+/*category部分start*/
+.bbm-category{
+    padding:5px 5px 0 5px;
+    background-color: #ebebeb;
+}
+.bbm-category .bbm-c-lists{
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+.bbm-category .bbm-c-lists .bbm-c-lists-t{
+    position:relative;
+}
+.bbm-category .bbm-c-lists .bbm-c-lists-t>a{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color:#000;
+    font-size:16px;
+    padding:0 1px 0 16px;
+    font-weight:bold;
+    border-bottom:1px solid #ccc;
+
+}
+.bbm-category .bbm-c-lists .bbm-c-lists-t p{
+    position: absolute;
+    top:7px;
+    right:10px;
+    font-size:20px;
+    color:#666;
+     font-weight:normal;
+    transform: rotate(90deg);
+}
+.bbm-category .bbm-c-lists .bbm-c-lists-all{
+    width: 100%;
+    margin-left:-1px;
+    background-color: #f9f9f9;
+    border-bottom:1px solid #888;
+    border-top:1px solid #ccc;
+    margin-top:-1px;
+}
+.bbm-category .bbm-c-lists .bbm-c-lists-all li{
+    float:left;
+    border-bottom:1px solid #ccc;
+    border-right:1px solid #ccc;
+    text-align: center;
+    width:33.3%;
+    height: 40px;
+    line-height: 40px;
+}
+.bbm-category .bbm-c-lists .bbm-c-lists-all li a{
+    display: block;
+    width: 100%;
+    color:#333;
+    font-size:16px;
+}
+/*category部分end*/
+
+/*foot部分start*/
+.mmb-foot .mmb-top{
+    margin-top:25px;
+}
+/*foot部分end*/
